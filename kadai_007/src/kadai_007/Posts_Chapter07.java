@@ -58,9 +58,7 @@ public class Posts_Chapter07 {
 				int likes = resultSet.getInt("likes");
 				System.out.println(resultSet.getRow() + "件目:投稿日時=" + posted_at
 						+ "/投稿内容=" + post_content + "/いいね数=" + likes );
-				if (count >= 2 ) {
-					break;
-					}
+				
 				}
 			
 			}catch(SQLException e) {
